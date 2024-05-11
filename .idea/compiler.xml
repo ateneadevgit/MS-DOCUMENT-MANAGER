@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="notification" />
+        <module name="security" />
+        <module name="MS-SETTINGS" />
+        <module name="workflow" />
+        <module name="service-broker" />
+        <module name="authorizer" />
+        <module name="catalogs" />
+        <module name="document-manager" />
+        <module name="programs" />
+        <module name="login" />
+        <module name="safety_mesh" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MS-SERVICE-CONFIG" target="17" />
+      <module name="MS-SERVICE-REGISTRY" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MS-SERVICE-CONFIG" options="-parameters" />
+      <module name="MS-SERVICE-REGISTRY" options="-parameters" />
+      <module name="MS-SETTINGS" options="-parameters" />
+      <module name="authorizer" options="-parameters" />
+      <module name="catalogs" options="-parameters" />
+      <module name="document-manager" options="-parameters" />
+      <module name="login" options="-parameters" />
+      <module name="notification" options="-parameters" />
+      <module name="programs" options="-parameters" />
+      <module name="safety_mesh" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="service-broker" options="-parameters" />
+      <module name="workflow" options="-parameters" />
+    </option>
+  </component>
+</project>

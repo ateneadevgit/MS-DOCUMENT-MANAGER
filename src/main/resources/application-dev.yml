@@ -1,0 +1,13 @@
+broker-routes:
+  domain: localhost
+
+ms-settings:
+  port: 8010
+  path: /api/v1/settings
+  complete-path: http://${broker-routes.domain}:${ms-settings.port}
+
+db-config:
+  domain: atenea.cfkwry6gcjvj.us-east-1.rds.amazonaws.com
+  name: atenea_document_manager
+  user: atenea_usr
+  password: 4Zn!UDBrgKt8J#sT
